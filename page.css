@@ -1,0 +1,236 @@
+body{
+    background: #B2E5FF ; 
+    /* background: linear-gradient(#465E8C,#7394BF); */
+    max-width: 1429px ;
+    /* color: rgb(165, 165, 165); */
+    color:#EDE8E8;
+    
+    
+}
+header{
+    width: 100%;
+    height: 48px;
+    position: sticky;
+    top: 1px;
+    /* color: #353a3d; */
+    box-shadow: 0px 1px 4px 5px rgba(46, 69, 71, 0.63);
+    background: linear-gradient(153deg, #4ad2ed 0%, #0d6e82 100%);
+    border-radius: 10px;
+    border: 1px solid rgba(34, 34, 34, 0);
+    z-index: 1;
+    
+    
+}
+hr{
+    background: #A6A7A8;
+}
+nav{
+    background: #00ffff;
+    height: 3rem;
+    width: 85.3rem;
+    border-radius: 15px;
+    
+}
+.logo{
+    position: absolute;
+    left: 10px;
+    width: 3%;
+    margin-bottom: auto ;
+    border-radius: 50%;
+    box-shadow: 0 0 5px 3px #00b7ff;
+    
+    
+    
+}
+.indexImg{
+    width: 100%;
+    height: 10%;
+}
+.indexTempleImg{
+
+}
+.GeetaNirvana{
+    
+    position: absolute;
+    text-align: center;
+    top: -15px;
+    vertical-align: text-top;
+    right: 45%;
+    font-weight: lighter;
+    
+}
+
+
+.player{
+    
+    position: fixed;
+    bottom: 1px;
+    width: 100%;
+    height: 7rem;
+    margin: 0.01px;
+    background-color: rgb(255, 221, 180);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    z-index: 1;
+    
+
+}
+
+.aum{
+    position: absolute;
+    color: chartreuse;
+    width: 85rem;
+    bottom: 30px;
+}
+.row1 , .row2 , .row3 , .row4, .row5{
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    margin: 5rem;
+    margin-left:  1rem;
+    margin-right: rem;
+    padding-top: 3rem;
+    
+}
+.Mantra{
+    position: relative;
+    margin: 20px;
+    /* background : linear-gradient(#0CC8F2, #F299C2);   [For Blues or cool Music] */
+    /* background : linear-gradient(#7394BF, #465E8C); */
+    background: #30303d00;
+    background: -moz-linear-gradient(#007cad, #111111);
+    background: repeating-linear-gradient(#00a6e7 ,#0066a1 );
+    border-radius: 15%;
+    box-shadow: 0 0 10px 3px #27405a;
+    text-align: center;
+    z-index: 0;
+    width:  280px;
+    height: 280px;
+    
+}
+.narayanaImg{
+    padding-left: 30%;
+    margin: 1rem;
+    /* right: 70%; */
+    width:  25rem;
+    height: 25rem;
+}
+.headerLinks{
+    background: linear-gradient(-45deg, #06d5ff , #1c778a );
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 3px #335579;
+    /* width: inherit; */
+    height: 30px;
+    width: 5rem;
+    margin: 2rem;
+    
+    position: absolute;
+    top: 40px;
+    
+    text-decoration: none;
+    
+    
+    
+    
+}
+.DevotionalADimg{
+    /* width: 50px; */
+    /* font-weight: lighter; */
+    /* background-color: #4ad2ed ; */
+    color:rgb(165, 158, 151);
+}
+.devotionalADimgTXT{
+    position: absolute;
+    /* margin-bottom: 1rem ; */
+}
+.DevotionalADimgPara{
+    left: 55rem;
+    top: 105rem;
+    position: absolute;
+    font-weight: 350;
+    
+}
+
+.relaxMusicImg{
+    position: absolute;
+    max-width: 53rem;
+}
+
+.Headeralbums{
+    display: flex;
+    flex-direction: row;
+    
+}
+#home{
+    left: 5rem;
+}
+#mantras{
+    left: 14rem;
+}
+#relax{
+    left: 23rem;
+}
+header > div > .mantras > a > h3{
+    margin-top: .5rem;
+    margin-left: 5px;
+}
+
+a{
+    bottom: 200px;
+    text-decoration: none;
+    color: black;
+}
+
+.AudioButtons{
+    position: absolute;
+    border-radius: 100%;
+    box-shadow: 0px 0 9px 7px  #2bdce2;
+    bottom: 25px;
+    height: 75px;
+    
+}
+.NarayanaMantra, .GayathriMantra{
+    font-weight: lighter;
+}
+#play{
+    right: 600px;
+}
+#pause{
+    right: 800px;
+}
+audio{
+    width: 100%;
+    /* margin-top: 0px; */
+}
+/* width */
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+   overflow-y: hidden;
+  }
+  .stotrasAndMantras{
+      background: linear-gradient(-45deg, #06d5ff , #1c778a, #003cff);
+      border-radius: 15px;
+      width: 15rem;
+      text-align: center;
+      margin: 2rem;
+      padding: 2rem;
+      /* position: absolute; */
+      /* top: 32rem; */
+      
+    
+  }
+  .stotrasAndMantras > a > h2{
+      font-weight: lighter;
+      color:#EDE8E8;
+  }
+  .mantraChoices :hover{
+	box-shadow: 0 0 2px 2px rgba(46, 69, 71, 0.63);
+    
+
+  }
+  @keyframes shine {
+    
+
+  }

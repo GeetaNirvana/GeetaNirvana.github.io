@@ -218,11 +218,11 @@ audio{
       padding: 2rem;
       /* position: absolute; */
       /* top: 32rem; */
+      font-weight: lighter;
       
     
   }
   .stotrasAndMantras >  h2{
-
       font-weight: lighter;
       color:#EDE8E8;
   }

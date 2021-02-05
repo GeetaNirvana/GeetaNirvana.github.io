@@ -219,10 +219,10 @@ audio{
       /* position: absolute; */
       /* top: 32rem; */
       font-weight: lighter;
-      
+      color:#EDE8E8;
     
   }
-  .stotrasAndMantras >  h2{
+  .stotrasAndMantras > h2{
       font-weight: lighter;
       color:#EDE8E8;
   }
